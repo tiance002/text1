@@ -1,0 +1,122 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9">
+  <diagram name="第 1 页" id="YTMysC1WrtHuYWMbHRut">
+    <mxGraphModel dx="600" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-10" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PlayerState" vertex="1">
+          <mxGeometry height="30" width="100" x="20" y="30" as="geometry">
+            <mxRectangle height="140" width="200" x="20" y="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-11" parent="UuvlMBB5fHvO3FYabD3Z-10" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +QPointF pos&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int hp&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +bool isReady&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +PlayerState()&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +PlayerState(QPointF, int, bool)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-19" collapsed="1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;DamageSyncData&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="20" y="90" as="geometry">
+            <mxRectangle height="100" width="140" x="100" y="320" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-21" parent="UuvlMBB5fHvO3FYabD3Z-19" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int shooterId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int targetId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int damage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-24" collapsed="1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;BulletSyncData&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="20" y="140" as="geometry">
+            <mxRectangle height="110" width="144" x="30" y="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-26" parent="UuvlMBB5fHvO3FYabD3Z-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int shooterId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +QPointF startPos&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +QPointF targetPos&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="144" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-28" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="GameOverData" vertex="1">
+          <mxGeometry height="30" width="140" x="20" y="190" as="geometry">
+            <mxRectangle height="100" width="140" x="20" y="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-29" parent="UuvlMBB5fHvO3FYabD3Z-28" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int winnerId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +int loserId&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-30" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="NetData_type" vertex="1">
+          <mxGeometry height="150" width="180" x="270" y="70" as="geometry">
+            <mxRectangle height="30" width="110" x="270" y="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-31" parent="UuvlMBB5fHvO3FYabD3Z-30" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_Ready&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_PlayerState&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_BulletSync&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_DamageEvent&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_GameOver&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_GameStart&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-32" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="NetworkBase" vertex="1">
+          <mxGeometry height="30" width="110" x="20" y="270" as="geometry">
+            <mxRectangle height="280" width="350" x="10" y="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-33" parent="UuvlMBB5fHvO3FYabD3Z-32" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #QTcpSocket* m_socket&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #QDataStream m_outStream&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #QByteArray m_dataBuffer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #PlayerState m_localState&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #QTimer* m_syncTimer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +NetworkBase(QObject*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +~NetworkBase()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +setLocalState(PlayerState)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +getLocalState() : PlayerState&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +{abstract} sendData(QByteArray)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +startSync()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +stopSync()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #{abstract} syncStateToPeer()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #{abstract} processNetworkData(quint8, QDataStream&amp;amp;, int)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #createPlayerStateData() : QByteArray&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="350" x="-10" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-34" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Server" vertex="1">
+          <mxGeometry height="30" width="80" x="20" y="310" as="geometry">
+            <mxRectangle height="200" width="300" x="50" y="300" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-35" parent="UuvlMBB5fHvO3FYabD3Z-34" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QTcpServer* m_tcpServer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QTcpSocket* m_clientSocket&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -bool m_isClientConnected&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +Server(QObject*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +startServer() : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +stopServer()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +getLocalIps() : QStringList&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +sendData(QByteArray)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #syncStateToPeer()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #processNetworkData(quint8, QDataStream&amp;amp;, int)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="-10" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-36" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Client" vertex="1">
+          <mxGeometry height="30" width="70" x="20" y="350" as="geometry">
+            <mxRectangle height="200" width="300" x="140" y="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-37" parent="UuvlMBB5fHvO3FYabD3Z-36" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QTcpSocket* m_tcpSocket&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -bool m_isConnected&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +Client(QObject*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +connectToServer(QString, quint16) : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +disconnectFromServer()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +sendData(QByteArray)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +isConnected() : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #syncStateToPeer()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; #processNetworkData(quint8, QDataStream&amp;amp;, int)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="-10" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-38" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PlayerItem" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="390" as="geometry">
+            <mxRectangle height="180" width="220" x="210" y="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-39" parent="UuvlMBB5fHvO3FYabD3Z-38" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -int m_playerId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -int m_hp&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QVector2D m_dir&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +PlayerItem(int, QGraphicsItem*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +move(QVector2D, qreal)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +shoot(QPointF)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +takeDamage(int)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +getState() : PlayerState&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +setState(PlayerState)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="-10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-40" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="BulletItem" vertex="1">
+          <mxGeometry height="30" width="90" x="25" y="440" as="geometry">
+            <mxRectangle height="190" width="310" x="150" y="220" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-41" parent="UuvlMBB5fHvO3FYabD3Z-40" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -int m_shooterId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QVector2D m_dir&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QElapsedTimer m_lifeTimer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -bool m_isHit&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +BulletItem(int, QPointF, QPointF, QGraphicsItem*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +updatePosition(qreal)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +isExpired() : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +shooterId() : int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +isHit() : bool&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +setHit(bool)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="320" x="-10" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-42" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="WallItem" vertex="1">
+          <mxGeometry height="30" width="90" x="25" y="480" as="geometry">
+            <mxRectangle height="110" width="330" x="70" y="470" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-43" parent="UuvlMBB5fHvO3FYabD3Z-42" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QRectF m_rect&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +WallItem(QRectF, QGraphicsItem*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +paint(QPainter*, QStyleOptionGraphicsItem*, QWidget*)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="340" x="-20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-45" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="GameWidget" vertex="1">
+          <mxGeometry height="30" width="110" x="25" y="520" as="geometry">
+            <mxRectangle height="220" width="290" x="160" y="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-46" parent="UuvlMBB5fHvO3FYabD3Z-45" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QGraphicsScene* m_scene&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -PlayerItem* m_player1&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -PlayerItem* m_player2&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -Server* m_server&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -Client* m_client&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QTimer* m_gameTimer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +GameWidget(QWidget*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +setNetworkObjects(Server*, Client*)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +initGame(bool, QString)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +endGame()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -updateGame()&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -onShootRequested(int, QPointF, QPointF)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="290" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-48" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="StartWidget" vertex="1">
+          <mxGeometry height="30" width="100" x="30" y="555" as="geometry">
+            <mxRectangle height="170" width="210" x="170" y="270" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-49" parent="UuvlMBB5fHvO3FYabD3Z-48" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QLabel* m_titleLabel&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QPushButton* m_createBtn&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QPushButton* m_joinBtn&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -GameWidget* m_gameWidget&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -Server* m_server&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -Client* m_client&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -QTimer* m_networkTimer&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; +StartWidget(QWidget*)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="-10" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-52" parent="1" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_Ready&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_PlayerState&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_BulletSync&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_DamageEvent&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_GameOver&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; NetData_GameStart&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="180" x="220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UuvlMBB5fHvO3FYabD3Z-53" parent="UuvlMBB5fHvO3FYabD3Z-52" style="shape=component;jettyWidth=8;jettyHeight=4;" value="" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" x="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
