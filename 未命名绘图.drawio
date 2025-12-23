@@ -29,7 +29,7 @@
           <mxGeometry height="80" width="144" y="30" as="geometry" />
         </mxCell>
         <mxCell id="UuvlMBB5fHvO3FYabD3Z-28" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="GameOverData" vertex="1">
-          <mxGeometry height="30" width="140" y="230" as="geometry">
+          <mxGeometry height="30" width="140" x="500" y="120" as="geometry">
             <mxRectangle height="80" width="140" x="490" y="430" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -45,7 +45,7 @@
           <mxGeometry height="30" width="160" y="60" as="geometry" />
         </mxCell>
         <mxCell id="UuvlMBB5fHvO3FYabD3Z-34" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Server" vertex="1">
-          <mxGeometry height="30" width="80" x="20" y="310" as="geometry">
+          <mxGeometry height="30" width="80" x="170" y="180" as="geometry">
             <mxRectangle height="200" width="300" x="50" y="300" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -53,7 +53,7 @@
           <mxGeometry height="30" width="300" x="-10" y="85" as="geometry" />
         </mxCell>
         <mxCell id="UuvlMBB5fHvO3FYabD3Z-36" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Client" vertex="1">
-          <mxGeometry height="30" width="70" x="20" y="350" as="geometry">
+          <mxGeometry height="30" width="70" x="90" y="300" as="geometry">
             <mxRectangle height="200" width="300" x="140" y="220" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -61,7 +61,7 @@
           <mxGeometry height="30" width="300" x="-10" y="85" as="geometry" />
         </mxCell>
         <mxCell id="UuvlMBB5fHvO3FYabD3Z-38" collapsed="1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="PlayerItem" vertex="1">
-          <mxGeometry height="30" width="100" x="10" y="390" as="geometry">
+          <mxGeometry height="30" width="100" x="500" y="230" as="geometry">
             <mxRectangle height="180" width="220" x="210" y="220" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
